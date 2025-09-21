@@ -92,7 +92,7 @@ export const projects: Project[] = [
     description: 'Location Based Task Reminder App built on Flutter, Firebase, GoogleMap, Local notification, targeting Android, iOS. This app allows users to set location-based reminders that trigger when they arrive at specific locations.',
     technologies: ['Flutter', 'Firebase', 'Google Maps', 'Local Notifications', 'Android', 'iOS'],
     githubUrl: 'https://github.com/mbilal/location-reminder',
-    imageUrl: '/thumbnails/location-reminder.png',
+    imageUrl: '/thumbnails/location.png',
     featured: true
   },
   {
@@ -101,7 +101,7 @@ export const projects: Project[] = [
     description: 'Turn real-world activity into fantasy-style stats. Track running, walking, and jogging to earn points, level up, and compete with friends. Integrated with HealthKit and OneSignal Notifications.',
     technologies: ['SwiftUI', 'Swift Concurrency', 'Supabase', 'Widget Kit', 'HealthKit', 'OneSignal'],
     githubUrl: 'https://github.com/mbilal/fantasy-fitness',
-    imageUrl: '/thumbnails/fantasy-fitness.png',
+    imageUrl: '/thumbnails/fantasy.png',
     featured: true
   },
   {
@@ -110,7 +110,7 @@ export const projects: Project[] = [
     description: 'Cross-platform AI-based real-time voice translator supporting 30+ languages. Designed for live conferences & meetings with instant translation capabilities.',
     technologies: ['Flutter', 'AI/ML', 'Real-time Translation', 'Cross-platform', 'Voice Recognition'],
     githubUrl: 'https://github.com/mbilal/e-speech',
-    imageUrl: '/thumbnails/e-speech.png',
+    imageUrl: '/thumbnails/espeech.png',
     featured: true
   }
 ];
