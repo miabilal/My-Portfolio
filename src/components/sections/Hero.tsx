@@ -9,7 +9,7 @@ import PerformanceOptimized3D, { useIsMobile, PerformanceMonitor } from '@/compo
 
 const Hero: React.FC = () => {
   const isMobile = useIsMobile();
-  
+
   const scrollToNext = () => {
     const aboutSection = document.getElementById('about');
     aboutSection?.scrollIntoView({ behavior: 'smooth' });
@@ -17,8 +17,8 @@ const Hero: React.FC = () => {
 
   const iconVariants = {
     hidden: { opacity: 0, scale: 0 },
-    visible: { 
-      opacity: 1, 
+    visible: {
+      opacity: 1,
       scale: 1,
       transition: { duration: 0.5, delay: 0.2 }
     }
@@ -26,8 +26,8 @@ const Hero: React.FC = () => {
 
   const textVariants = {
     hidden: { opacity: 0, y: 20 },
-    visible: { 
-      opacity: 1, 
+    visible: {
+      opacity: 1,
       y: 0,
       transition: { duration: 0.6, delay: 0.1 }
     }
@@ -35,8 +35,8 @@ const Hero: React.FC = () => {
 
   const buttonVariants = {
     hidden: { opacity: 0, y: 20 },
-    visible: { 
-      opacity: 1, 
+    visible: {
+      opacity: 1,
       y: 0,
       transition: { duration: 0.6, delay: 0.4 }
     }
@@ -94,8 +94,8 @@ const Hero: React.FC = () => {
             variants={textVariants}
             className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed"
           >
-            Passionate about building innovative mobile applications, IoT solutions, and scalable software systems. 
-            I specialize in Flutter, Swift,SwiftUI,UiKit, and Kotlin that make a real impact.
+            Passionate about building innovative mobile applications, IoT solutions, and scalable software systems.
+            I specialize in Flutter, Swift, SwiftUI, UIKit, and Kotlin that make a real impact.
           </motion.p>
 
           {/* Tech Icons */}
@@ -105,28 +105,16 @@ const Hero: React.FC = () => {
             variants={iconVariants}
             className="flex justify-center items-center space-x-8 mb-12"
           >
-            <motion.div
-              whileHover={{ scale: 1.2, rotate: 5 }}
-              className="p-4 bg-white dark:bg-gray-800 rounded-xl shadow-lg"
-            >
+            <motion.div whileHover={{ scale: 1.2, rotate: 5 }} className="p-4 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
               <Smartphone className="w-8 h-8 text-blue-600" />
             </motion.div>
-            <motion.div
-              whileHover={{ scale: 1.2, rotate: -5 }}
-              className="p-4 bg-white dark:bg-gray-800 rounded-xl shadow-lg"
-            >
+            <motion.div whileHover={{ scale: 1.2, rotate: -5 }} className="p-4 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
               <Code className="w-8 h-8 text-green-600" />
             </motion.div>
-            <motion.div
-              whileHover={{ scale: 1.2, rotate: 5 }}
-              className="p-4 bg-white dark:bg-gray-800 rounded-xl shadow-lg"
-            >
+            <motion.div whileHover={{ scale: 1.2, rotate: 5 }} className="p-4 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
               <Database className="w-8 h-8 text-purple-600" />
             </motion.div>
-            <motion.div
-              whileHover={{ scale: 1.2, rotate: -5 }}
-              className="p-4 bg-white dark:bg-gray-800 rounded-xl shadow-lg"
-            >
+            <motion.div whileHover={{ scale: 1.2, rotate: -5 }} className="p-4 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
               <Zap className="w-8 h-8 text-yellow-600" />
             </motion.div>
           </motion.div>
@@ -148,6 +136,7 @@ const Hero: React.FC = () => {
             >
               Get In Touch
             </Button3D>
+
             <Button3D
               href={`https://github.com/${contactInfo.github}`}
               variant="outline"
@@ -160,17 +149,20 @@ const Hero: React.FC = () => {
             >
               View My Work
             </Button3D>
+
             <Button3D
-              href={`mailto:${contactInfo.email}`}
+              href="/Bilal.pdf"
               variant="ghost"
               size="lg"
               className="w-full sm:w-auto"
               glowColor="#06b6d4"
               intensity={0.1}
+              download
             >
               <Download className="w-5 h-5 mr-2" />
               Download CV
             </Button3D>
+
           </motion.div>
 
           {/* Scroll Indicator */}
@@ -194,7 +186,7 @@ const Hero: React.FC = () => {
           </motion.div>
         </div>
       </div>
-      
+
       {/* Performance Monitor (Development Only) */}
       <PerformanceMonitor />
     </section>
