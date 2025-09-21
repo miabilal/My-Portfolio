@@ -181,7 +181,7 @@ const Experience: React.FC = () => {
                   Get In Touch
                 </a>
                 <a
-                  href={`https://github.com/mbilal`}
+                  href={`https://github.com/miabilal`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-6 py-3 border-2 border-blue-600 text-blue-600 font-medium rounded-lg hover:bg-blue-600 hover:text-white transition-colors duration-200"

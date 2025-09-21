@@ -101,7 +101,7 @@ export const projects: Project[] = [
     description: 'Turn real-world activity into fantasy-style stats. Track running, walking, and jogging to earn points, level up, and compete with friends. Integrated with HealthKit and OneSignal Notifications.',
     technologies: ['SwiftUI', 'Swift Concurrency', 'Supabase', 'Widget Kit', 'HealthKit', 'OneSignal'],
     githubUrl: 'https://github.com/mbilal/fantasy-fitness',
-    imageUrl: '/thumbnails/fantasy.png',
+    imageUrl: '/thumbnails/fantsay.png',
     featured: true
   },
   {
@@ -110,7 +110,7 @@ export const projects: Project[] = [
     description: 'Cross-platform AI-based real-time voice translator supporting 30+ languages. Designed for live conferences & meetings with instant translation capabilities.',
     technologies: ['Flutter', 'AI/ML', 'Real-time Translation', 'Cross-platform', 'Voice Recognition'],
     githubUrl: 'https://github.com/mbilal/e-speech',
-    imageUrl: '/thumbnails/espeech.png',
+    imageUrl: '/thumbnails/espech.png',
     featured: true
   }
 ];
