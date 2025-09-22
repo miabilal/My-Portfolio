@@ -29,8 +29,8 @@ const About: React.FC = () => {
 
   const stats = [
     { icon: Code, label: 'Years Experience', value: '4+' },
-    { icon: Smartphone, label: 'Mobile Apps', value: '10+' },
-    { icon: Database, label: 'Projects', value: '30+' },
+    { icon: Smartphone, label: 'Mobile Apps', value: '100+' },
+    { icon: Database, label: 'Projects', value: '300+' },
     { icon: Users, label: 'Happy Users', value: '1M+' }
   ];
 
